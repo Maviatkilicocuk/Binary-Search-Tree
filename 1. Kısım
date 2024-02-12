@@ -1,0 +1,50 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+1. Adım
+Bütün hepsini toplayıp 10'a bölüyoruz. Sonuç 4,5 çıkıyor. Yukarı yuvarlayıp 5 elde ediliyor.
+
+2. Adım
+Root 5'dir. Düz dizi sırası ile başlıyoruz. 7 sayısı 5'in sağına ekleniyor.
+
+3. Adım
+5 sayısı root olduğu için 1 'e geliyoruz. 1 5'in soluna eklenir.
+
+4. Adım
+8 sayısı 7'nin sağına eklenir.
+
+5. Adım
+3 sayısı 1'in sağına eklenir.
+
+6. Adım
+6 sayısı 7'nin soluna eklenir.
+
+7. Adım
+0 sayısı 1'in soluna eklenir.
+
+8. Adım
+9 sayısı  8'in sağına eklenir.
+
+9. Adım
+4 sayısı 3 sayısının sağına eklenir.
+
+10. Adım
+2 sayısı 3'ün soluna eklenir.
+
+Sonuç
+
+                                         5
+                                    /         \
+                                  1             7
+                               /     \         /     \ 
+                              0        3      6       8
+                                      /   \             \
+                                    2       4             9
+
+
+
+
+
+
+
